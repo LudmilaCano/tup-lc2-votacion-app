@@ -1,0 +1,81 @@
+
+.grilla{
+    width: 1024px;
+    margin: 0px auto 50px auto;
+    border-radius: 15px;
+    border: 1px solid var(--borde-Grilla);
+    border-collapse: collapse;
+    background-color: rgb(250, 250, 250);
+}
+.encabezado{
+    text-align: center;
+    color: var(--titulo-Grilla);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--borde-inferior-Grilla);
+}
+tr :hover{
+    background-color: rgb(250, 250, 250);
+}
+td{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--borde-inferior-Grilla);
+    padding: 15px 0px;
+    font-size: 12px;
+    vertical-align: top;
+    align-items: center;
+}
+.texto-elecciones-chico{
+    text-align: 12px;
+    color: var(--textos);
+    font-weight: bold;
+}
+.texto-path-chico{
+    font-size: 11px;
+    color: var(--celeste);
+}
+.mesas-escrutadas{
+    background-color: var(--celeste);
+    border-radius: 5px;
+    margin: 2px;
+    height: 70px;
+    width: 120px;
+    color: #FFF;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.electores{
+    background-color: var(--magenta);
+    border-radius: 5px;
+    margin: 2px;
+    height: 70px;
+    width: 120px;
+    color: #FFF;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.participacion-escrutado{
+    background-color: var(--morado);
+    border-radius: 5px;
+    margin: 2px;
+    height: 70px;
+    width: 120px;
+    color: #FFF;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.eleccion *{
+    padding-right: 50%;
+    width: 100px;
+}
+
+.datos-generales{
+    width: 250px;
+    display: flex;
+}
